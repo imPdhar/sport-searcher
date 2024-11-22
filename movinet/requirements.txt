@@ -4,5 +4,5 @@ tqdm
 opencv-python==4.5.5.62
 opencv-python-headless==4.5.5.62
 # tf-models-no-deps Windows user use this
-# tf-models-official==2.16.0
-# protobuf==3.19.6
+tf-models-official==2.16.0
+protobuf==3.19.6
