@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/bd8f43f0-8a5f-4c0c-aef8-fc0c8ed555ef)# **Sport-Searcher**
 
 ## **A Simple Video Classification Model using MoViNets**
 
