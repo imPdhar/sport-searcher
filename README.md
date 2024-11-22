@@ -1,4 +1,3 @@
-
 ## **A Simple Video Classification Model using MoViNets**
 
 A simple video classification model built to classify into one of four sports of interest: **Cricket**, **Baseball**, **Soccer**, and **Basketball** (Baseball redacted due to memory issues (Not hardware. Mine.)
@@ -19,12 +18,12 @@ A simple video classification model built to classify into one of four sports of
 
 ## Datasets and why they were not considered/challenges faced
 
-| Name       | Advantages                                                   | Challenges faced                                             |
-| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Sports-1m** | Highly reliable dataset for many actions in sports. Well written documentation and straightforward. (PS Andrej Karpathy had created it) | Dataset has died away due to changing rules of Youtube API calls |
-| **UCF-101**   | Reliable and well-documented from everywhere                 | Dirty dataset, low number of classes and samples for reqd problem statement |
+| Name           | Advantages                                                   | Challenges faced                                             |
+| -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Sports-1m**  | Highly reliable dataset for many actions in sports. Well written documentation and straightforward. (PS Andrej Karpathy had created it) | Dataset has died away due to changing rules of Youtube API calls |
+| **UCF-101**    | Reliable and well-documented from everywhere                 | Dirty dataset, low number of classes and samples for reqd problem statement |
 | **HMDB51**     | Action recognition dataset                                   | No sports                                                    |
-| **Youtube-8M**| Relatively newer than all, running under Youtube itself      | Dataset was hard to train, Documentation was too complex to understand |
+| **Youtube-8M** | Relatively newer than all, running under Youtube itself      | Dataset was hard to train, Documentation was too complex to understand |
 
 ## A little about MoViNets:
 
@@ -62,3 +61,8 @@ MoViNet can classify various human actions in videos, such as playing sports or 
 
 In summary, MoViNet and its A2-Stream variant provide a powerful solution for efficient video classification on mobile platforms, combining advanced neural network techniques with practical design considerations for real-world applications.
 
+## Setup
+
+Everything related to setup is explained in the **movinet** directory.
+
+Credits for movinet training code: https://github.com/naseemap47/Custom-MoViNet/tree/master
