@@ -1,5 +1,5 @@
 
-### Chosen MoViNet Models:
+### Chosen MoViNet Model/s:
 - [ ] MoViNet Base A0
 - [ ] MoViNet Base A1
 - [ ] MoViNet Base A2
@@ -28,7 +28,7 @@ The **MoViNet** model family has been published in March 2021 by Google research
 
 
 
-**Example**
+**To inference**
 ```
 python3 inference.py --tflite my_model.tflite --source 'videos/sample.mp4' --num_frames 32 \
                      --data data/test --save
