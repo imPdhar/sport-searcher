@@ -1,4 +1,4 @@
-# **Sport-Searcher**
+![image](https://github.com/user-attachments/assets/bd8f43f0-8a5f-4c0c-aef8-fc0c8ed555ef)# **Sport-Searcher**
 
 ## **A Simple Video Classification Model using MoViNets**
 
@@ -49,10 +49,12 @@ The A2-Stream model is particularly effective for real-time video classification
 
 ## **Visual Representation**
 
-Here’s a diagram illustrating the architecture of MoViNets and its streaming capabilities:
+Here’s a diagram illustrating the architecture of MoViNets:
 
-![The high-level presentation of MoViNet-based classification using fine-tuning of MoViNet models](https://www.researchgate.net/publication/370103459/figure/fig1/AS:11431281150222909@1681875660914/The-high-level-presentation-of-MoViNet-based-classification-using-fine-tuning-of-MoViNet.ppm)
+![The high-level presentation of MoViNet-based classification using fine-tuning of MoViNet models](Assets/The-high-level-presentation-of-MoViNet-based-classification-using-fine-tuning-of-MoViNet.ppm)
 
+Here's a diagram officially from the authors explaining the difference between streaming evaluation and multi-clip evaluation:
+![Architecture](https://production-media.paperswithcode.com/methods/Screen_Shot_2021-08-05_at_12.05.06_PM.png)
 
 
 ## **Applications**
@@ -60,3 +62,4 @@ Here’s a diagram illustrating the architecture of MoViNets and its streaming c
 MoViNet can classify various human actions in videos, such as playing sports or performing artistic activities. Its ability to process video streams in real time opens up possibilities for applications in surveillance, sports analytics, and interactive media. 
 
 In summary, MoViNet and its A2-Stream variant provide a powerful solution for efficient video classification on mobile platforms, combining advanced neural network techniques with practical design considerations for real-world applications.
+
