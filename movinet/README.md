@@ -35,12 +35,12 @@ The **MoViNet** model family has been published in March 2021 by Google research
 - Run ```pip install -r requirements.txt``` (If facing issues install packages individually)
 - Download pre-trained checkpoint from model zoo of Tensorflow using ```!wget https://storage.googleapis.com/tf_model_garden/vision/movinet/movinet_a2_stream.tar.gz``` and place it in the directory of movinet
 - Then ```pip install keras==2.15.0 ```
-- Replace given builder.py within the path of protobuf (for colab it was ```'/usr/local/lib/python3.10/dist-packages/google/protobuf/internal'```
-- Replace load_context.py within the path of Keras (for colab it was ```/usr/local/lib/python3.10/dist-packages/keras/src/saving/legacy/saved_model```)
+- Replace given builder.py (in Misc folder) within the path of protobuf (for colab it was ```'/usr/local/lib/python3.10/dist-packages/google/protobuf/internal'```
+- Replace load_context.py(in Misc folder) within the path of Keras (for colab it was ```/usr/local/lib/python3.10/dist-packages/keras/src/saving/legacy/saved_model```)
 - Make Dataset is in the format of Kinetics dataset (i.e train/classname/video1.avi, video2.avi...; test/classname/video1.avi, video2.avi etc)
 - Then run train.py based on the model used. I used a2 so I made some changes in the training code for a2's architecture and the commandline to run it was ```!python3 train.py --data '/content/Dataset' --batch_size 32 --num_frames 32 --resolution 224 --num_epochs 14 --pre_ckpt movinet_a2_stream/ --save_ckpt '/content/drive/MyDrive/vid-class-ckpts/run04/' --export '/content/drive/MyDrive/vid-class-ckpts/run04/' --model_id a2 --save '/content/drive/MyDrive/vid-class-ckpts/run03/sport_model.tflite'```
 - Since the dataset was balanced, I used generic accuracy as an evaluation metric.
-- .tflite file will be saved in your specified dir. Use that path to pass into inference.py
-- The inference commandline I used was ```!python3 inference.py --tflite '/content/drive/MyDrive/vid-class-ckpts/run04/sport_model.tflite' --source '/content/My 2 year old son playing cricket.mp4' --num_frames 32 --data '/content/Dataset/test' --save```
+- .tflite file will be saved in your specified dir. Use that path to pass into inference.py. I have supplied weights file in the models subdirectory.
+- The inference commandline you should use is ```!python3 inference.py --tflite 'sport_model.tflite' --source 'My 2 year old son playing cricket.mp4' --num_frames 32 --data 'Dataset/test' --save```
 - The inference video will be saved as output.mp4 with the classification written in the video.
 
