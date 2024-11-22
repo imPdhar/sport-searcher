@@ -21,10 +21,10 @@ A simple video classification model built to classify into one of four sports of
 
 | Name       | Advantages                                                   | Challenges faced                                             |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Sports-1m ** | Highly reliable dataset for many actions in sports. Well written documentation and straightforward. (PS Andrej Karpathy had created it) | Dataset has died away due to changing rules of Youtube API calls |
-| **UCF-101 **   | Reliable and well-documented from everywhere                 | Dirty dataset, low number of classes and samples for reqd problem statement |
+| **Sports-1m** | Highly reliable dataset for many actions in sports. Well written documentation and straightforward. (PS Andrej Karpathy had created it) | Dataset has died away due to changing rules of Youtube API calls |
+| **UCF-101**   | Reliable and well-documented from everywhere                 | Dirty dataset, low number of classes and samples for reqd problem statement |
 | **HMDB51**     | Action recognition dataset                                   | No sports                                                    |
-| **Youtube-8M **| Relatively newer than all, running under Youtube itself      | Dataset was hard to train, Documentation was too complex to understand |
+| **Youtube-8M**| Relatively newer than all, running under Youtube itself      | Dataset was hard to train, Documentation was too complex to understand |
 
 ## A little about MoViNets:
 
