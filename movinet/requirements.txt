@@ -1,8 +1,8 @@
 # python 3.9.16
 remotezip
 tqdm
-opencv-python==4.5.3.56
-opencv-python-headless==4.5.3.56
-tf-models-no-deps
+opencv-python==4.5.5.62
+opencv-python-headless==4.5.5.62
+# tf-models-no-deps Windows user use this
+# tf-models-official==2.16.0
 # protobuf==3.19.6
-protobuf==3.20.3
